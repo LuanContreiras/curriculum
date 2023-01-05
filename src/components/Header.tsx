@@ -36,6 +36,7 @@ export function Header() {
       <div className="flex items-center gap-5">
         <img
           src={user.avatar_url}
+          alt="Foto de perfil"
           className="hidden lg:inline rounded-full h-[120px] border-4 border-white "
         />
         <div>
