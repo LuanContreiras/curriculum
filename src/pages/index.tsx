@@ -30,7 +30,7 @@ export default function Home() {
             mundo volátil e incerto.{<br />}
           </p>
 
-          <div className="mt-16">
+          <div className="mt-6">
             <h2 className="uppercase text-purple-400 font-bold text-xl lg:text-lg">
               Experiência Profissional
             </h2>
@@ -85,49 +85,49 @@ export default function Home() {
               <li className="relative mt-2">
                 <span>HTML</span>
                 <div className="absolute h-2 w-full bg-gray-400 rounded-full overflow-hidden">
-                  <span className="absolute h-2 w-5/6 bg-purple-400"></span>
+                  <span className="absolute h-2 w-5/6 bg-purple-400 scale-x-0 animate-scaling origin-left animation-delay-500"></span>
                 </div>
               </li>
 
               <li className="relative mt-4">
                 <span>CSS</span>
-                <div className="absolute h-2 w-full bg-gray-400 rounded-full overflow-hidden">
-                  <span className="absolute h-2 w-5/6 bg-purple-400"></span>
+                <div className="absolute h-2 w-full bg-gray-400 rounded-full overflow-hidden ">
+                  <span className="absolute h-2 w-5/6 bg-purple-400 scale-x-0 animate-scaling origin-left animation-delay-550"></span>
                 </div>
               </li>
 
               <li className="relative mt-4">
                 <span>Javascript</span>
                 <div className="absolute h-2 w-full bg-gray-400 rounded-full overflow-hidden">
-                  <span className="absolute h-2 w-5/6 bg-purple-400"></span>
+                  <span className="absolute h-2 w-5/6 bg-purple-400 scale-x-0 animate-scaling origin-left animation-delay-600"></span>
                 </div>
               </li>
 
               <li className="relative mt-4">
                 <span>React JS</span>
                 <div className="absolute h-2 w-full bg-gray-400 rounded-full overflow-hidden">
-                  <span className="absolute h-2 w-3/6 bg-purple-400"></span>
+                  <span className="absolute h-2 w-3/6 bg-purple-400 scale-x-0 animate-scaling origin-left animation-delay-650"></span>
                 </div>
               </li>
 
               <li className="relative mt-4">
                 <span>Typescript</span>
                 <div className="absolute h-2 w-full bg-gray-400 rounded-full overflow-hidden">
-                  <span className="absolute h-2 w-3/6 bg-purple-400"></span>
+                  <span className="absolute h-2 w-3/6 bg-purple-400 scale-x-0 animate-scaling origin-left animation-delay-700"></span>
                 </div>
               </li>
 
               <li className="relative mt-4">
                 <span>Git</span>
                 <div className="absolute h-2 w-full bg-gray-400 rounded-full overflow-hidden">
-                  <span className="absolute h-2 w-2/6 bg-purple-400"></span>
+                  <span className="absolute h-2 w-2/6 bg-purple-400 scale-x-0 animate-scaling origin-left animation-delay-750"></span>
                 </div>
               </li>
 
               <li className="relative mt-4">
                 <span>Node.js</span>
                 <div className="absolute h-2 w-full bg-gray-400 rounded-full overflow-hidden">
-                  <span className="absolute h-2 w-1/6 bg-purple-400"></span>
+                  <span className="absolute h-2 w-1/6 bg-purple-400 scale-x-0 animate-scaling origin-left animation-delay-800"></span>
                 </div>
               </li>
             </ul>
@@ -146,9 +146,9 @@ export default function Home() {
             </li>
           </ul>
 
-          <div className="lg:grid lg:grid-cols-2">
+          <div className="lg:grid lg:grid-cols-2 mt-16 lg:mt-6">
             <div>
-              <h2 className="uppercase text-purple-400 font-bold text-xl lg:text-lg mt-16 lg:mt-9">
+              <h2 className="uppercase text-purple-400 font-bold text-xl lg:text-lg ">
                 Idioma(s)
               </h2>
               <ul className="mt-4 text-gray-600">
@@ -165,13 +165,13 @@ export default function Home() {
             </div>
 
             <div>
-              <h2 className="uppercase text-purple-400 font-bold text-xl lg:text-lg mt-16 lg:mt-9">
+              <h2 className="uppercase text-purple-400 font-bold text-xl lg:text-lg">
                 Contatos
               </h2>
               <ul className="mt-4 text-gray-600 grid grid-cols-2 gap-y-2 lg:gap-y-3 lg:grid-cols-1">
                 <li>
                   <a
-                    className="flex gap-1 items-center hover:text-blue-500 ease-in-out duration-300"
+                    className="flex gap-1 items-center hover:text-blue-500 ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 origin-left"
                     href="https://www.linkedin.com/in/luan-contreiras-9b9b67183/"
                     target="_blank"
                     rel="noreferrer"
@@ -183,7 +183,7 @@ export default function Home() {
 
                 <li>
                   <a
-                    className="flex gap-1 items-center hover:text-orange-400 ease-in-out duration-300"
+                    className="flex gap-1 items-center hover:text-orange-400 ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 origin-left"
                     href="https://github.com/LuanContreiras"
                     target="_blank"
                     rel="noreferrer"
@@ -195,7 +195,7 @@ export default function Home() {
 
                 <li>
                   <a
-                    className="flex gap-1 items-center hover:text-purple-400 ease-in-out duration-300"
+                    className="flex gap-1 items-center hover:text-purple-400 ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 origin-left"
                     href="https://luancontreiras.github.io/Portfolio---Luan-Contreiras/"
                     target="_blank"
                     rel="noreferrer"
@@ -207,7 +207,7 @@ export default function Home() {
 
                 <li>
                   <a
-                    className="flex items-center gap-1 hover:text-green-600 ease-in-out duration-300"
+                    className="flex items-center gap-1 hover:text-green-600 ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 origin-left"
                     href="https://wa.me/+5571992505190"
                     target="_blank"
                     rel="noreferrer"
